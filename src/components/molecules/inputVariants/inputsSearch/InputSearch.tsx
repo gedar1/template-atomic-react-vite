@@ -1,14 +1,29 @@
-import { Button, InputBasic } from '@atoms/'
-import React from 'react'
+import React, { ChangeEvent } from "react";
+import { Button, InputBasic } from "@atoms/";
+import { UsePageOneContext } from "@context/";
+import './index.css';
 
-export const InputSearch = () => {
-  return (
-    <div>
-      <InputBasic/>
-      <Button label='ClickMe'/>
-    </div>
-  )
+interface InputSearchProps  {
+  className: string;
+  inputSearchStyle:string
+  buttonSearchStyle:string
 }
 
 
-export default InputSearch
+export const InputSearch  =({...props}: InputSearchProps) => {
+  const { updateName } = UsePageOneContext();
+
+  const handleSearchInput = (e: ChangeEvent<HTMLInputElement>) => {
+    updateName(e.target.value);
+  };
+  return (
+    <div className={props.className}>
+      <InputBasic className={props.inputSearchStyle} onChange={(e) => handleSearchInput(e)} />
+      <Button type="button" className={props.buttonSearchStyle}>
+        Search
+      </Button>
+    </div>
+  );
+};
+
+export default InputSearch;

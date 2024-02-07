@@ -1,15 +1,8 @@
+import { InputHTMLAttributes, FC } from 'react';
 
-
-
-
-export interface InputPropsType {
-  handleOnChange?: () => void
-} 
-
-const InputBasic = ({handleOnChange}: InputPropsType) => {
-
+const InputBasic : FC<InputHTMLAttributes<HTMLInputElement>> = ({...props}) => {
   return (
-    <input onChange={handleOnChange}>
+    <input className={props.className} onChange={props.onChange} >
     </input>
   )
 }

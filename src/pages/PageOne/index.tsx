@@ -10,7 +10,7 @@ interface IndexProps {
 export const PageOne: FC<IndexProps> = ({ title }) => {
  
   const {firstname} = UsePageOneContext()
-  
+  console.log(firstname)
   return (
     <div>
       <div>Title: {firstname}</div>

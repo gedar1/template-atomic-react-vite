@@ -6,6 +6,6 @@ export interface UseStoreType extends ActionType {
 }
 
 export type ActionType = {
-  updateName: (firstName: UseStoreType['firstname']) => void
+  updateName: (firsName: UseStoreType['firstname']) => void
   updateLastName: (lastName: UseStoreType['lastName']) => void
 }

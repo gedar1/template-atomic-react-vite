@@ -1,14 +1,14 @@
 import { InputSearch } from "@molecules/";
+import './index.css'
 
 export const TemplateOne = () => {
   
   return (
-    <div>
-      <InputSearch/>
-      <InputSearch/>
-      <p className="read-the-docs">
+    <div className="template-one">
+      <h4 className="read-the-docs">
         Atomic desing react vite
-      </p>
+      </h4>
+      <InputSearch className={"inputContentsearch"} inputSearchStyle={'input-search'} buttonSearchStyle={'btn-search'}  />   
     </div>
   );
 };

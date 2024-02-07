@@ -2,7 +2,7 @@ import React from 'react'
 
 export const ButtonSearch = () => {
   return (
-    <div>ButtonSearch</div>
+    <div >ButtonSearch</div>
   )
 }
 

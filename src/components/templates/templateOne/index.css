@@ -1,0 +1,45 @@
+.template-one {
+  align-items: center;
+  background-color: #adaba7;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 400px;
+  justify-content: center;
+  width: 900px;
+}
+
+.input-search {
+  border-radius: 8px;
+  border: 1px solid #adaba7;
+  font-size: x-large;
+  color: #6d6565;
+  display: flex;
+  gap: 10px;
+  height: 40px;
+  width: 250px;
+}
+
+.inputContentsearch {
+  align-items: center;
+  background-color: #eddfdf;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  height: 200px;
+  justify-content: center;
+  width: 600px;
+
+}
+
+
+.btn-search {
+  display: flex;
+  align-items: center;
+  background-color: #aaa69d; 
+  height: 40px;
+  justify-content: center;
+  width: 20%;
+  color: white;
+  font-size: 18px;
+}
