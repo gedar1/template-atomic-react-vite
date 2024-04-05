@@ -6,8 +6,8 @@ export const ButtonBasic: FC<ButtonHTMLAttributes<HTMLButtonElement>> = ({childr
 
   return (
     <button
-    type={props['type']}
-    className={props['className']}>
+    type={props.type}
+    className={props.className}>
       {children}
     </button>
   )
