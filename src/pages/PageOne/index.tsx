@@ -11,8 +11,8 @@ interface IndexProps {
 
 export const PageOne: FC<IndexProps> = ({ title }) => {
   const {firstname} = UsePageOneContext()
-  const keyClaves = 'tv pantalla screen televisor'
-  const text1 = 'televisor'
+  const keyClaves = 'televisor'
+  const text1 = firstname
   console.log(firstname)
   const component = React.createElement('div', null , <TextBasic>{firstname}</TextBasic>);
   //const component2 = React.createElement('div', null , <TextBasic>{title}</TextBasic>);
@@ -24,7 +24,8 @@ export const PageOne: FC<IndexProps> = ({ title }) => {
   // </>
   <div>
       <div>Title: {firstname}</div>
-      {title === 'Page One' && component}
+      {/* {title === 'Page One' && component} */}
+      {validated[0] === 0 && component}
       <div />
       {title}
       <TemplateOne />
