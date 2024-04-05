@@ -1,6 +1,6 @@
 .template-one {
   align-items: center;
-  background-color: #adaba7;
+  /* background-color: var(--gray-primary-400); */
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -11,9 +11,9 @@
 
 .input-search {
   border-radius: 8px;
-  border: 1px solid #adaba7;
+  border: 1px solid var(--gray-primary-100);
   font-size: x-large;
-  color: #6d6565;
+  color: var(--gray-primary-200);
   display: flex;
   gap: 10px;
   height: 40px;
@@ -22,7 +22,7 @@
 
 .inputContentsearch {
   align-items: center;
-  background-color: #eddfdf;
+  background-color: var(--yellow-primary-100);
   border-radius: 8px;
   display: flex;
   gap: 10px;
@@ -32,14 +32,21 @@
 
 }
 
-
 .btn-search {
   display: flex;
   align-items: center;
-  background-color: #aaa69d; 
+  background-color: var(--gray-primary-25); 
   height: 40px;
   justify-content: center;
-  width: 20%;
-  color: white;
+  width: fit-content;
+  color: var(--black-primary);
+  font-size: 18px;
+}
+
+.text-basic {
+  width: 100%;
+  height: 100px;
+  background-color:aqua;
+  color:black;
   font-size: 18px;
 }

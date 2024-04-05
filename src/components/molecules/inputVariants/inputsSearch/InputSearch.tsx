@@ -1,7 +1,7 @@
 import React, { ChangeEvent } from "react";
-import { Button, InputBasic } from "@atoms/";
+import {  InputBasic } from "@atoms/";
 import { UsePageOneContext } from "@context/";
-import './index.css';
+import { ButtonSearch } from "../..";
 
 interface InputSearchProps  {
   className: string;
@@ -19,9 +19,9 @@ export const InputSearch  =({...props}: InputSearchProps) => {
   return (
     <div className={props.className}>
       <InputBasic className={props.inputSearchStyle} onChange={(e) => handleSearchInput(e)} />
-      <Button type="button" className={props.buttonSearchStyle}>
+      <ButtonSearch type="button" className={props.buttonSearchStyle}>
         Search
-      </Button>
+      </ButtonSearch>
     </div>
   );
 };

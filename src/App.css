@@ -3,6 +3,44 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  /*white*/
+  --white-primary-400: #d6d6d6;
+  --white-primary-300: #e0e0e0;
+  --white-primary-200: #ebebeb;
+  --white-primary-100: #f5f5f5;
+  --white-primary: #ffffff;
+
+  /*black*/
+  --black-primary: #000000;
+  --black-primary-200: #232323;
+  --black-primary-300: #464646;
+  --black-primary-400: #686868;
+  /* gray */
+  --gray-primary: #808080;
+  --gray-primary-25: #aaa69d;
+  --gray-primary-50: #605e5e;
+  --gray-primary-100: #414636;
+  --gray-primary-200: #575d4c;
+  --gray-primary-300: #6e7362;
+  --gray-primary-400: #9aa08d;
+  /*blue*/
+  --blue-primary-100: #1b93da;
+  --blue-primary-200: #1482c8;
+  --blue-primary-300: #0e72b5;
+  --blue-primary-400: #0761a3;
+  --blue-primary-500: #005090;
+  /*green*/
+  --green-primary-100: #40a953;
+  --green-primary-200: #309742;
+  --green-primary-300: #208632;
+  --green-primary-400: #107421;
+  --green-primary-500: #006210;
+  /*yellow*/
+  --yellow-primary-100: #ffffc0;
+  --yellow-primary-200: #ffff00;
+  --yellow-primary-300: #ffff30;
+  --yellow-primary-400: #ffff60;
+  --yellow-primary-500: #ffff90;
 }
 
 .logo {

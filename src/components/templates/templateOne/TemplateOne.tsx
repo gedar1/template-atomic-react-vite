@@ -1,15 +1,21 @@
 import { InputSearch } from "@molecules/";
-import './index.css'
+import "./index.css";
+import { TextBasic } from "@atoms/";
 
 export const TemplateOne = () => {
-  
   return (
-    <div className="template-one">
-      <h4 className="read-the-docs">
-        Atomic desing react vite
-      </h4>
-      <InputSearch className={"inputContentsearch"} inputSearchStyle={'input-search'} buttonSearchStyle={'btn-search'}  />   
-    </div>
+    <>
+      <div className="template-one">
+        <TextBasic className={"text-basic"}>
+          <span>hola</span>
+        </TextBasic>
+        <InputSearch
+          className={"inputContentsearch"}
+          inputSearchStyle={"input-search"}
+          buttonSearchStyle={"btn-search"}
+        />
+      </div>
+    </>
   );
 };
 

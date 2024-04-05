@@ -1,8 +1,18 @@
-import React from 'react'
+import React,{ ButtonHTMLAttributes } from 'react'
+import { ButtonBasic } from '@atoms/'
 
-export const ButtonSearch = () => {
+interface ButtonSearchType {
+  type: ButtonHTMLAttributes<HTMLElement>['type']
+  className: string
+  children: React.ReactNode
+}
+
+export const ButtonSearch = ({children,type,className}: ButtonSearchType) => {
+
   return (
-    <div >ButtonSearch</div>
+    <ButtonBasic type={type} className={className}>
+      {children}
+    </ButtonBasic>
   )
 }
 
