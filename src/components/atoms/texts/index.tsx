@@ -10,6 +10,6 @@ export const TextBasic : FC<HTMLAttributes<HTMLHeadingElement>> = ({children,...
   )
 }
 
-export default TextBasic
+
 
 

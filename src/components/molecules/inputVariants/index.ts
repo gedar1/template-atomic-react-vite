@@ -1,2 +1,3 @@
 
-export * from './inputsSearch/InputSearch';
+export * from './InputForm';
+export * from './InputsSearch';

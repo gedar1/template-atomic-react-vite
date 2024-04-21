@@ -16,4 +16,3 @@ export const ButtonSearch = ({children,type,className}: ButtonSearchType) => {
   )
 }
 
-export default ButtonSearch

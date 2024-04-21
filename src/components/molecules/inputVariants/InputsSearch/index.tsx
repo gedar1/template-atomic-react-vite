@@ -1,7 +1,8 @@
 import React, { ChangeEvent } from "react";
 import {  InputBasic } from "@atoms/";
 import { UsePageOneContext } from "@context/";
-import { ButtonSearch } from "../..";
+import { ButtonSearch } from '../../buttonVariants/ButtonSearch/index';
+
 
 interface InputSearchProps  {
   className: string;
@@ -26,4 +27,4 @@ export const InputSearch  =({...props}: InputSearchProps) => {
   );
 };
 
-export default InputSearch;
+

@@ -13,4 +13,3 @@ export const ButtonBasic: FC<ButtonHTMLAttributes<HTMLButtonElement>> = ({childr
   )
 }
 
-export default ButtonBasic;
